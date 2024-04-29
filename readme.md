@@ -34,8 +34,15 @@ target("sample")
 ```
 If you use mac, this line might useful `add_rpathdirs("/Library/Developer/CommandLineTools/Library/Frameworks/")`
 
+
+Then you can run these command lines:
+```shell
+xmake build sample  # build this sample
+xmake run sample  # run this sample
+```
+
 # Using C++ variables
-To reference C++ variables, let macro capture, as shown in the example above. The output is
+To reference C++ variables, let macro capture it, as shown in the example above. The output is
 ```shell
 a=0, b=4
 ```
